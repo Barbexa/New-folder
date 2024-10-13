@@ -269,6 +269,35 @@ form .fields .input-fields{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 0.13);
 }
 
+.tbs {
+    width: 80%;
+    border-radius: 10px;
+    margin: 20px auto;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+ .tables .ths, .tds {
+    border: 0;
+    padding: 5px;
+    text-align: center;
+}
+.tables .ths {
+    background-color: #4070f4;
+    color: white;
+}
+.tables .tds {
+    background-color: #fff;
+}
+.tables .trs:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.imagee{
+    background-image: url(IMG_2304_0.jpeg);
+    object-fit: contain;
+}
+
 .text-box{
     background: #fff;
     color: #2e2e2e;
@@ -276,10 +305,11 @@ form .fields .input-fields{
     border-radius: 10px;
     border: 2px solid transparent;
     outline: none;
-    width: 40%;
+    width: 30%;
     display: flex;
     justify-content: center;
-    margin-left: 30%;
+    margin-left: 60%;
+    height: 90%;
 }
 .text-box .text-word h3{
     margin-bottom: 10px;
@@ -304,7 +334,7 @@ form .fields .input-fields{
 #textarea{
     background-color: #fff;
     border-radius: 10px;
-    width: 440px;
+    width: 350px;
     height: 200px;
     color: #2e2e2e;
     border: none;
