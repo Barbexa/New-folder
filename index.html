@@ -29,11 +29,18 @@
         <section id="hero">
         <section class="hero">
             <img src="edwe.jpg" alt="">
-            <div class="content">
+            <!--<div class="content">
             <h1>My Campus</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, esse sit. Repudiandae odio soluta eum optio necessitatibus asperiores amet officiis, ratione culpa pariatur. Doloribus unde culpa sequi quos architecto suscipit.</p>
             <button>Learn More</button>
-            </div>
+            </div>-->
+            <div class="content">
+                <h1>My Campus</h1>
+                <p>Welcome To Bayero University Kani
+                    <br>وفوق كل ذي علم عليم<br>
+                    ...and above every possessor of knowledge there is one more learned</p>
+                <button><a href="https://buk.edu.ng/home" target="_blank">Learn More</a></button>
+                </div>
         </section>
     </main>
     </section>
@@ -65,7 +72,7 @@
                         <fieldset class="fieldset">
                             <legend class="title">Personal Details</legend>
 
-                        <div class="fields">
+                        <!--<div class="fields">
                             <div class="input-field">
                                 <label for="fname">First Name:</label>
                                 <input type="text"  name="fname" placeholder="Input Your Name" required>
@@ -176,7 +183,167 @@
                             </div>
 
                             
+                        </div>-->
+                        <div class="fields">
+                            <div class="input-field">
+                                <label for="fname">
+                                    First Name:
+                                </label>
+                                <input type="text"  name="fname" placeholder="Input Your Name" required>
+                            </div>
+
+
+                            <div class="input-field">
+                                <label for="sname">
+                                    Surname:
+                                </label>
+                                <input type="text"  name="sname" placeholder="Input Your Surname" required>
+                            </div>
+
+
+                           <div class="input-field">
+                                <label for="fdate">
+                                    Date of Birth:
+                                </label>
+                                <input type="date"  name="fdate" placeholder="Enter Birth date" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label for="pgender">
+                                    Gender:
+                                </label>
+                                    <select id="dropdown"  name="gender" placeholder="Gender" required>
+                                        <option>Select a gender</option>
+                                        <option>Male</option>
+                                        <option>Female</option>
+                                    </select>
+                            </div>
+
+
+                            <div class="input-field">
+                                <label for="pnumber">
+                                    Phone Number:
+                                </label>
+                                <input type="tel"  name="pnumber" placeholder="+234  ---  ---  ----" required>
+                            </div>
+                            
+
+                            <div class="input-field">
+                                <label for="fdecade">
+                                    Favourite Decade: 
+                                </label>
+                                <input type="date"  name="fdecade" placeholder="Enter Favourite Decade" required>
+                            </div>
+
+                            <div class="input-field">
+                                <label for="password">
+                                    Password:
+                                </label>
+                                <input type="password"  name="spassword" placeholder="Enter Password" required>
+                                    
+                            </div>
+                            
+
+                            <div class="input-field">
+                                <label for="email">Email:</label>
+                                <input type="email"  name="email" placeholder="Enter Email" required>
+                            </div>
                         </div>
+                        </fieldset>
+                    </div>
+
+                    <div class="optional"></div>
+                        <fieldset class="fieldset">
+                            <legend class="title">Optional Details</legend>
+
+                        <div class="fields">
+                            <div id="pets" class="input-fields">
+                                <p>Select Your Favourite Pet</p>
+                                <!--<p>-->
+                                    <label for="Dog">
+                                        <input class="radio-check" type="radio" id="Dog" name="Pet">
+                                        Dog
+                                    </label>
+ 
+                                    <label for="Dog">
+                                        <input class="radio-check" type="radio" id="Cat" name="Pet">
+                                        Cat
+                                    </label>
+ 
+                                    <label for="Dog">
+                                        <input class="radio-check" type="radio" id="Rabbit" name="Pet">
+                                        Rabbit
+                                    </label>
+
+                                    <label for="Dog">
+                                        <input class="radio-check" type="radio" id="Parrot" name="Pet">
+                                        Parrot
+                                    </label>
+                               <!--</p>--> 
+                            </div>
+
+
+                            <div id="lect" class="input-fields">
+                                <p>Select Your Favourite Lecturer</p>
+                               <!--<p>-->
+                                    <label for="Isaac Newton">  
+                                        <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                        Isaac Newton
+                                    </label>
+ 
+                                    <label for="Albert Eistein">
+                                        <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                        Albert Eistein
+                                    </label>
+ 
+                                    <label for="Georg Simon Ohm">
+                                        <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                        Georg Simon Ohm
+                                    </label>
+                                <!--</p>-->
+                            </div>
+
+
+                           <div class="input-fields">
+                            <p>Select Your Programs</p>
+                            <!--<p>-->
+                                <label for="Mallama">
+                                    <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                    BSc. Computer Science
+                                </label>
+
+                                <label for="Mallama">
+                                    <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                    BSc. Software Engineering
+                                </label>
+
+                                <label for="Mallama">
+                                    <input class="radio-check" type="checkbox" name="Mallama" id="Mallama">
+                                    BSc. Information Technology
+                                </label><!--<br>-->
+
+                                <label for="Mallama">
+                                    <input class="radio-check" type="checkbox" name="Mallama" id="cbs">
+                                    BSc. Cybersecurity
+                                </label>
+ 
+                                <label for="BSc. Information and Media Studies">
+                                    <input class="radio-check" type="checkbox" name="BSc. Information and Media Studies" id="ims"> 
+                                    BSc. Information and Media Studies
+                               </label>
+
+                                <label  for="BSc. Law">
+                                    <input class="radio-check" type="checkbox" name="BSc. Law" id="llb" value="BSc. Law">
+                                    BSc. Law
+                                </label>
+                            <!--</p>-->
+                            </div>
+                        </div>
+                        
+                        </fieldset>
+                    </div>
+                    <input type="submit" value="Submit" id="submit" style="text-align:center;">
+                </div>
                         </fieldset>
                     </div>
                 </div>
